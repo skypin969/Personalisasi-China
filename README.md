@@ -15,6 +15,11 @@ A KernelSU Next module that adds China-region lock screen items, wallpapers, the
 ## Requirements
 - Tested on Poco X7 5G (malachite) with HyperOS 3.0.305.0 Global.
 
+## Region and Theme app
+- This module sets the system region to **CN** (`ro.miui.build.region=CN`). The China-style lock screen customization options only appear when the region is CN.
+- **Known issue:** with the region set to CN, the **Theme** app cannot be opened and shows the message *"Tema tidak didukung di daerah Anda"* (Theme is not supported in your region).
+- If you need the Theme app, uninstall this module and reboot to restore the Global region.
+
 ## Installation
 1. Download `Personalisasi_China.zip` from the **Releases** page.
 2. Open KernelSU Next, go to **Modules**, choose **Install from storage**, and select the zip.
