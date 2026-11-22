@@ -13,8 +13,7 @@ A KernelSU Next module that adds China-region lock screen items, wallpapers, the
 - **Configuration files** (`system/product/etc/*`): permissions, SELinux policy, sysconfig, display config, and similar files.
 
 ## Requirements
-- **KernelSU Next** (root) is required.
-- Works with the Global HyperOS ROM. Other ROMs are not tested.
+- Tested on Poco X7 5G (malachite) with HyperOS 3.0.305.0 Global.
 
 ## Installation
 1. Download `Personalisasi_China.zip` from the **Releases** page.
